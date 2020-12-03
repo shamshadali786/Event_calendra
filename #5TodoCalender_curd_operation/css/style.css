@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+    font-family: 'Open Sans'
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #666;
+    background-color: #f9f9f9;
+}
+
+h1,
+h2,
+h3 {
+    color: #4b4b4b;
+    margin: 1.2em 0 .5em 0;
+}
+
+.project-heading {
+    font-family: 'Open Sans';
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    margin-bottom: 50px;
+    color: #538fcd;
+    font-weight: 600;
+    position: relative;
+}
+
+.project-heading::before {
+    position: absolute;
+    content: '';
+    width: 150px;
+    height: 4px;
+    background-color: #538fcd;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    bottom: -10px;
+}
+
+.project-heading::after {
+    position: absolute;
+    content: '';
+    width: 7px;
+    height: 7px;
+    background-color: #538fcd;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    bottom: -14px;
+    transform: rotate(45deg);
+}
+
+.content {
+    max-width: 500px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 10px;
+    border: solid 1px #eee;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    font-size: .9em;
+    font-weight: normal;
+    border-right: 1px solid #fff;
+}
+
+th {
+    background: #eee;
+    white-space: nowrap;
+}
+
+td:first-child {
+    color: royalblue;
+    white-space: nowrap;
+}
+
+p,
+td {
+    line-height: 1.5;
+}
+
+.inline-code {
+    padding: 1px 5px;
+    background: #eee;
+    border-radius: 2px;
+}
+
+pre {
+    margin: 10px 0;
+    overflow: auto;
+    white-space: pre;
+    word-wrap: normal;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px 10px;
+    line-height: 18px;
+    background: #edf3f8;
+    font-size: 14px;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px;
+    border: 0;
+    border-radius: 3px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button.info {
+    background: #538fcd;
+    color: #fff;
+}
+
+.area-buttons {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* Accordian section start now */
+.accordion {
+    max-width: 500px;
+    padding: 10px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 10px;
+    border: solid 1px #eee;
+    border-radius: 10px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.item-header {
+    padding: 14px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.text {
+    color: #888;
+    padding: 0 6px;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.accordion-item.active .text {
+    max-height: 600px;
+    transition: .4s linear;
+}
+
+/* Accordian section end now */
+
+/* Form section start now */
+.event-form-section {
+    max-width: 500px;
+    margin: 0px auto;
+    background: #fff;
+    padding: 10px;
+    border: solid 1px #eee;
+    border-radius: 10px;
+}
+
+.event-form-section h3 {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding: 8px 0px 20px 0px;
+    margin-top: 0px;
+    position: relative;
+    color: #538fcd;
+}
+.event-form-section h3::before {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: #538fcd;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    bottom: 10px;
+}
+
+.event-form-section h3::after {
+    position: absolute;
+    content: '';
+    width: 7px;
+    height: 7px;
+    background-color: #538fcd;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    bottom: 6px;
+    transform: rotate(45deg);
+}
+.event-form-section form{
+    padding: 10px 20px;
+}
